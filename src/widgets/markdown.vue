@@ -2,7 +2,7 @@
      Copyright ©2021 Thorsten von Eicken, MIT license, see LICENSE file
 -->
 <template>
-  <div style="width:100%; height:100%;overflow-y:scroll;">
+  <div :id="title" style="width:100%; height:100%;overflow-y:scroll;">
     <v-card-text v-if="title" class="font-weight-bold px-0 pt-1 mb-n1 d-flex">
       <span class="mx-auto">{{title}}</span>
     </v-card-text>

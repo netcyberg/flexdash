@@ -2,7 +2,7 @@
      Copyright ©2021 Thorsten von Eicken, MIT license, see LICENSE file
 -->
 <template>
-  <div class="pushbutton d-flex align-center justify-center">
+  <div :id="title" class="pushbutton d-flex align-center justify-center">
     <v-tooltip top :open-on-hover="!!tooltip">
       <template v-slot:activator="{ on, attrs }">
         <v-btn large dense class="ma-auto" max-width="95%"

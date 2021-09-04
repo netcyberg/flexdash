@@ -3,7 +3,7 @@
 -->
 
 <template>
-  <div class="gauge d-flex flex-column justify-top align-center">
+  <div :id="title" class="gauge d-flex flex-column justify-top align-center">
     <svg-gauge v-bind="$props" :value="value"></svg-gauge>
     <div class="label d-flex flex-column mx-auto" :class="txt_class" :style="txt_style">
       <v-card-text class="value d-flex pa-0 width100">
